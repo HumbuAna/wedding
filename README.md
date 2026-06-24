@@ -89,19 +89,16 @@
       <h2>RSVP</h2>
       <p>Please confirm your attendance by <strong>18 July 2026</strong>.</p>
       <p class="italian">Si prega di confermare la presenza entro il <strong>18 luglio 2026</strong>.</p>
-      <form id="rsvpForm" action="https://formsubmit.co/htakalani@gmail.com" method="POST">
-        <input type="text" name="Full Name / Nome e cognome" placeholder="Full name / Nome e cognome" required>
-        <select name="Attendance / Partecipazione" required>
+      <form id="rsvpForm">
+        <input type="text" id="fullName" placeholder="Full name / Nome e cognome" required>
+        <select id="attendance" required>
           <option value="">Will you be attending? / Parteciperai?</option>
-          <option value="Yes, with joy / Sì, con gioia">Yes, with joy / Sì, con gioia</option>
-          <option value="Regretfully No / Purtroppo no">Regretfully No / Purtroppo no</option>
+          <option value="Yes, with joy">Yes, with joy / Sì, con gioia</option>
+          <option value="Regretfully No">Regretfully No / Purtroppo no</option>
         </select>
-        <input type="hidden" name="_subject" value="New Wedding RSVP - Humbu & Ana">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
         <button type="submit" class="btn">Send RSVP / Invia RSVP</button>
       </form>
-      <p class="rsvp-note">When guests click send, the RSVP will be emailed to <strong>htakalani@gmail.com</strong>.<br><span class="italian">Quando gli ospiti cliccano invia, l'RSVP sarà inviato via email a <strong>htakalani@gmail.com</strong>.</span></p>
+      <p class="rsvp-note">RSVP via WhatsApp: <strong>+27 79 750 6051</strong></p>
     </section>
 
     <section id="contact" class="section contact">
