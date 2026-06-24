@@ -89,8 +89,16 @@
       <h2>RSVP</h2>
       <p>Please confirm your attendance by <strong>18 July 2026</strong>.</p>
       <p class="italian">Si prega di confermare la presenza entro il <strong>18 luglio 2026</strong>.</p>
-      <a class="btn" target="_blank" href="https://wa.me/27797506051?text=Wedding%20RSVP%20-%20Humbu%20and%20Ana%0A%0AFull%20Name%20%2F%20Nome%20Completo%3A%20%0A%0AAttending%20%2F%20Parteciperai%3A%20Yes%2C%20with%20joy%20%2F%20S%C3%AC%2C%20con%20gioia%20OR%20Regretfully%20No%20%2F%20Purtroppo%20No">RSVP via WhatsApp / Conferma tramite WhatsApp</a>
-      <p class="rsvp-note">WhatsApp: <strong>+27 79 750 6051</strong></p>
+      <form id="rsvpForm">
+        <input type="text" id="fullName" placeholder="Full name / Nome e cognome" required>
+        <select id="attendance" required>
+          <option value="">Will you be attending? / Parteciperai?</option>
+          <option value="Yes, with joy">Yes, with joy / Sì, con gioia</option>
+          <option value="Regretfully No">Regretfully No / Purtroppo no</option>
+        </select>
+        <button type="submit" class="btn">Send RSVP / Invia RSVP</button>
+      </form>
+      <p class="rsvp-note">RSVP via WhatsApp: <strong>+27 79 750 6051</strong></p>
     </section>
 
     <section id="contact" class="section contact">
