@@ -20,3 +20,22 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+document.getElementById('rsvpForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const fullName = document.getElementById('fullName').value.trim();
+  const attendance = document.getElementById('attendance').value;
+  const recipient = 'htakalani@gmail.com';
+  const subject = encodeURIComponent('Wedding RSVP - Humbu & Ana');
+  const body = encodeURIComponent(
+`Wedding RSVP - Humbu & Ana
+
+Full name / Nome e cognome: ${fullName}
+Will you be attending? / Parteciperai?: ${attendance}
+
+RSVP deadline: 18 July 2026
+Wedding date: 26 September 2026`
+  );
+
+  window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
+});
