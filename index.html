@@ -23,40 +23,48 @@
   <section id="home" class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="eyebrow">We are getting married</p>
+      <p class="eyebrow">We are getting married · Ci sposiamo</p>
       <h1>Humbu & Ana</h1>
       <p class="date">26 September 2026 · Mantova, Italy</p>
+      <div class="countdown" aria-label="Wedding countdown">
+        <div><span id="days">0</span><small>Days<br>Giorni</small></div>
+        <div><span id="hours">0</span><small>Hours<br>Ore</small></div>
+        <div><span id="minutes">0</span><small>Minutes<br>Minuti</small></div>
+        <div><span id="seconds">0</span><small>Seconds<br>Secondi</small></div>
+      </div>
       <a href="#rsvp" class="btn">RSVP by 18 July 2026</a>
     </div>
   </section>
 
   <main>
     <section class="intro section">
-      <p class="eyebrow">With love and joy</p>
+      <p class="eyebrow">With love and joy · Con amore e gioia</p>
       <h2>Join us as we celebrate our wedding day</h2>
       <p>We would be honoured to have you with us as we begin this beautiful new chapter together.</p>
+      <p class="italian">Saremmo onorati di avervi con noi mentre iniziamo insieme questo bellissimo nuovo capitolo.</p>
     </section>
 
     <section id="details" class="section details">
-      <p class="eyebrow">Wedding programme</p>
+      <p class="eyebrow">Wedding programme · Programma del matrimonio</p>
       <h2>Event Details</h2>
       <div class="cards">
         <article class="card">
           <h3>Matrimonio civile / Official ceremony</h3>
           <p class="time">11:00</p>
           <p><strong>Comune di Curtatone</strong><br>Provincia di Mantova, Italy</p>
-          <a class="map" href="https://www.google.com/maps/search/?api=1&query=Comune+di+Curtatone+Provincia+di+Mantova+Italy" target="_blank">Open map</a>
+          <a class="map" href="https://www.google.com/maps/search/?api=1&query=Comune+di+Curtatone+Provincia+di+Mantova+Italy" target="_blank">Open map / Apri mappa</a>
         </article>
         <article class="card">
-          <h3>Lunch</h3>
+          <h3>Lunch / Pranzo</h3>
           <p class="time">13:00</p>
           <p><strong>Cava Boschetto</strong><br>Str. Vicinale del Boschetto 1<br>46010 Curtatone, Mantova, Italy</p>
-          <a class="map" href="https://www.google.com/maps/search/?api=1&query=Cava+Boschetto+Str.+Vicinale+del+Boschetto+1+46010+Curtatone+Mantova+Italy" target="_blank">Open map</a>
+          <a class="map" href="https://www.google.com/maps/search/?api=1&query=Cava+Boschetto+Str.+Vicinale+del+Boschetto+1+46010+Curtatone+Mantova+Italy" target="_blank">Open map / Apri mappa</a>
         </article>
         <article class="card">
-          <h3>Dress Code</h3>
-          <p class="time">Elegant</p>
+          <h3>Dress Code / Abbigliamento</h3>
+          <p class="time">Elegant / Elegante</p>
           <p>Please dress elegantly as we celebrate this special day together.</p>
+          <p class="italian">Vi chiediamo un abbigliamento elegante per celebrare insieme questo giorno speciale.</p>
         </article>
       </div>
     </section>
@@ -67,7 +75,7 @@
     </section>
 
     <section id="gallery" class="section gallery">
-      <p class="eyebrow">Our memories</p>
+      <p class="eyebrow">Our memories · I nostri ricordi</p>
       <h2>Gallery</h2>
       <div class="gallery-grid">
         <img src="images/hero.jpeg" alt="Humbu and Ana by the sea">
@@ -77,27 +85,28 @@
     </section>
 
     <section id="rsvp" class="section rsvp">
-      <p class="eyebrow">Kindly respond</p>
+      <p class="eyebrow">Kindly respond · Gentile conferma</p>
       <h2>RSVP</h2>
       <p>Please confirm your attendance by <strong>18 July 2026</strong>.</p>
+      <p class="italian">Si prega di confermare la presenza entro il <strong>18 luglio 2026</strong>.</p>
       <form id="rsvpForm">
-        <input type="text" id="name" placeholder="Your full name" required>
-        <input type="number" id="guests" placeholder="Number of guests" min="1" required>
+        <input type="text" id="fullName" placeholder="Full name / Nome e cognome" required>
         <select id="attendance" required>
-          <option value="">Will you attend?</option>
-          <option value="Yes, I will attend">Yes, I will attend</option>
-          <option value="No, I cannot attend">No, I cannot attend</option>
+          <option value="">Will you be attending? / Parteciperai?</option>
+          <option value="Yes, with joy">Yes, with joy / Sì, con gioia</option>
+          <option value="Regretfully No">Regretfully No / Purtroppo no</option>
         </select>
-        <textarea id="message" placeholder="Message / dietary requirements"></textarea>
-        <button type="submit" class="btn">Send RSVP on WhatsApp</button>
+        <button type="submit" class="btn">Send RSVP / Invia RSVP</button>
       </form>
+      <p class="rsvp-note">RSVP will be sent to <strong>htakalani@gmail.com</strong>.</p>
     </section>
 
     <section id="contact" class="section contact">
-      <p class="eyebrow">Need help?</p>
+      <p class="eyebrow">Need help? · Hai bisogno di aiuto?</p>
       <h2>Contact</h2>
       <p>For RSVP or wedding enquiries, please contact:</p>
-      <a class="phone" href="tel:+27720761114">+44 (0)7428 454074</a>
+      <p class="italian">Per RSVP o informazioni sul matrimonio, contattare:</p>
+      <a class="phone" href="tel:+447428454074">+44 (0)7428 454074</a>
     </section>
   </main>
 
