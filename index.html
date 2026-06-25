@@ -101,7 +101,7 @@
     </section>
 
     <section class="quote section">
-       <h2>“Two hearts, one journey.”<br><small>“Due cuori, un solo cammino.”</small></h2>
+      <h2>“Two hearts, one journey.”<br><small>“Due cuori, un solo cammino.”</small></h2>
       <p>Humbu & Ana</p>
     </section>
 
